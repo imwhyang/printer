@@ -3,16 +3,16 @@ plugins {
     id 'com.android.library'
     id 'kotlin-android'
 }
-
+group='com.github.whosmyqueen'
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 21
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 300
+        versionName "3.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
