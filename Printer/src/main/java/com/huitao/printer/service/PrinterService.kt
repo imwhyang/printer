@@ -165,13 +165,13 @@ class PrinterService : Service() {
                                 mBond?.add("${device.name}\n${device.address}")
                             }
                         } else {
-                            Looper.prepare()
+//                            Looper.prepare()
                             Toast.makeText(
                                 this@PrinterService,
                                 "no paired device",
                                 Toast.LENGTH_SHORT
                             ).show()
-                            Looper.loop()
+//                            Looper.loop()
                         }
                     } else {
                         Toast.makeText(
